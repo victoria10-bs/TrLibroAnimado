@@ -236,7 +236,7 @@ html{
     margin: 10px 4px;
     font-size: 15px;
     transition: .3s;
-    top:-80px;
+    top:-40px;
     position: relative;
     width: 40px;
 }
@@ -429,3 +429,63 @@ em{top:160px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(110, 80, 20, 0.4),
     inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
     }
+
+/* From Uiverse.io by cssbuttons-io */
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.cv{
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    top:20px;
+    position: relative;
+    background-color: #b17d10;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(165, 93, 7, 0.6);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.cv:hover {
+    background-color: #dfb962;
+    box-shadow: 0px 15px 20px rgba(165, 93, 7, 0.6);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.cv:active {
+    transform: translateY(-1px);
+}
+
+.float{
+    position: fixed;
+    width: 50px;
+    background-color: #25d366;
+    height: 50px;
+    bottom: 40px;
+    border-radius: 100%;
+    right: 150px;
+    top: 449px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 999;
+}
+
+.fa-whatsapp{
+    font-size: 50px;
+
+}
+
+.float:hover{
+    background-color: #28e76e;
+}
